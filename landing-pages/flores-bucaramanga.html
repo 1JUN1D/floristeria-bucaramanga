@@ -796,171 +796,187 @@
         // Catálogo de arreglos con rosas y girasoles
         const products = [
             {
-                id: 1, name: "Cofre Encantado", price: 255000, image: "/assets/1.webp",
-                description: "Una rosa preservada bajo cúpula de cristal, dos ositos rojos y globos dorados sobre una base de madera con nube blanca. Es el detalle que no se marchita ni se olvida: perfecto para aniversarios y para decir que esto va en serio.",
-                categories: ["detalles", "premium"]
-            },
-            {
-                id: 2, name: "Rosa Eterna", price: 170000, image: "/assets/2.webp",
-                description: "Rosa roja preservada dentro de una cúpula de cristal, con lazo rojo, bolsa de regalo y una caja dorada de bombones. Dura años y no días, por eso queda como recuerdo de la fecha que no quieres que se le olvide.",
-                categories: ["detalles"]
-            },
-            {
-                id: 3, name: "Vuelo Frutal", price: 325000, image: "/assets/3.webp",
-                description: "Canasta de frutas frescas -piña, uvas, fresas y cítricos- suspendida bajo un globo transparente en tonos rosados. Llega como una sorpresa que se ve enorme al abrir la puerta, ideal para cumpleaños, nacimientos y buenas noticias.",
-                categories: ["frutales", "detalles", "premium"]
-            },
-            {
-                id: 4, name: "Cosecha Rosada", price: 140000, image: "/assets/4.webp",
-                description: "Canasta en tejido natural con manzanas, uvas, naranjas y peras, coronada por dos filas de rosas rosadas y nube blanca. Une el te quiero con el cuídate, el regalo perfecto para mamá, una amiga o alguien a quien quieres consentir.",
-                categories: ["frutales", "rosas"]
-            },
-            {
-                id: 5, name: "Amanecer Frutal", price: 120000, image: "/assets/5.webp",
-                description: "Base de madera con lirios amarillos, rosas rosadas y amarillas, y frutas frescas entre follaje y nube blanca. Es alegre y abundante a la vista, pensado para cumpleaños y agradecimientos que quieres que se noten.",
-                categories: ["frutales", "mixtos"]
-            },
-            {
-                id: 6, name: "Torre de Cariño", price: 170000, image: "/assets/6.webp",
-                description: "Torre de rosas fucsia, lirio blanco y frutas de temporada rematada con un globo blanco y moños en rosado. Alta, colorida y difícil de ignorar: perfecta para una entrega sorpresa en la oficina o en la casa.",
-                categories: ["frutales", "rosas", "detalles"]
-            },
-            {
-                id: 7, name: "Sol y Cosecha", price: 140000, image: "/assets/7.webp",
-                description: "Canasta con girasoles y rosas amarillas sobre manzanas, uvas y naranjas frescas. Los girasoles transmiten energía y buen ánimo, ideales para felicitar, agradecer o alegrarle el día a alguien.",
-                categories: ["frutales", "girasoles"]
-            },
-            {
-                id: 8, name: "Rojo Abrazo", price: 130000, image: "/assets/8.webp",
-                description: "Caja negra con dos docenas de rosas rojas, nube blanca y follaje, acompañada de un oso de peluche. Las rosas dicen lo que sientes y el peluche se queda abrazando cuando tú no estás.",
-                categories: ["rosas", "detalles"]
-            },
-            {
-                id: 9, name: "Clásico de Siempre", price: 100000, image: "/assets/9.webp",
-                description: "Ramo vertical de rosas rojas con nube blanca, envuelto en papel blanco y rematado con moño rojo. El clásico que nunca falla: aniversarios, disculpas o un porque sí que siempre se recibe bien.",
-                categories: ["rosas"]
-            },
-            {
-                id: 10, name: "Dulce Encuentro", price: 130000, image: "/assets/10.webp",
-                description: "Caja blanca con tres filas de rosas rojas, un girasol abierto y solidago amarillo, junto a un corazón de bombones Ferrero. Flores y chocolate en un mismo regalo, la combinación que casi nadie sabe rechazar.",
-                categories: ["rosas", "girasoles", "mixtos", "detalles"]
-            },
-            {
-                id: 11, name: "Sol Naciente", price: 100000, image: "/assets/11.webp",
-                description: "Ramo de rosas amarillas y naranjas en papel kraft, con nube blanca y moño amarillo. El amarillo se asocia con alegría y nuevos comienzos: ideal para felicitar un logro, un trabajo nuevo o una reconciliación.",
-                categories: ["rosas"]
-            },
-            {
-                id: 12, name: "Fuego y Girasol", price: 325000, image: "/assets/12.webp",
-                description: "Caja negra con girasoles, rosas rojas y solidago amarillo, con tarjeta y corazón de bombones incluido. Grande, contrastado y fotogénico, es el arreglo que la gente publica apenas lo recibe.",
-                categories: ["girasoles", "rosas", "mixtos", "detalles", "premium"]
-            },
-            {
-                id: 13, name: "Detalle Radiante", price: 70000, image: "/assets/13.webp",
-                description: "Ramo compacto con dos girasoles, rosas rojas y nube en papel blanco con moño rojo. Cuesta poco y dice mucho: el detalle ideal para un pensé en ti entre semana.",
-                categories: ["girasoles", "rosas", "mixtos"]
-            },
-            {
-                id: 14, name: "Rosas y Chocolate", price: 100000, image: "/assets/14.webp",
-                description: "Ramo de rosas rojas con nube blanca, envuelto en papel blanco y acompañado de chocolatinas. Dos placeres en un mismo regalo, perfecto para cumpleaños, aniversarios de mes y sorpresas rápidas.",
-                categories: ["rosas", "detalles"]
-            },
-            {
-                id: 15, name: "Lirios y Ternura", price: 100000, image: "/assets/15.webp",
-                description: "Lirios rosados abiertos con nube blanca en papel fucsia, junto a un peluche de monito. Los lirios perfuman todo el espacio y el peluche convierte el detalle en un recuerdo que se guarda.",
-                categories: ["detalles"]
-            },
-            {
-                id: 16, name: "Chispa de Alegría", price: 40000, image: "/assets/16.webp",
+                id: 16, name: "Chispa de Alegría", price: 50000, image: "/assets/16.webp",
                 description: "Girasol, rosas rojas y solidago en un ramo sencillo con moño rosado. Es la opción económica para no llegar con las manos vacías y aun así sacar una sonrisa.",
                 categories: ["girasoles", "rosas", "mixtos"]
             },
             {
-                id: 17, name: "Sol Eterno", price: 165000, image: "/assets/17.webp",
-                description: "Rosa amarilla preservada bajo cúpula de cristal con lazo amarillo, bolsa de regalo y bombones Ferrero. La rosa amarilla habla de amistad y alegría, y al ser preservada acompaña durante años.",
-                categories: ["detalles", "premium"]
+                id: 13, name: "Detalle Radiante", price: 87500, image: "/assets/13.webp",
+                description: "Ramo compacto con dos girasoles, rosas rojas y nube en papel blanco con moño rojo. Cuesta poco y dice mucho: el detalle ideal para un pensé en ti entre semana.",
+                categories: ["girasoles", "rosas", "mixtos"]
             },
             {
-                id: 18, name: "Escalera al Sol", price: 130000, image: "/assets/18.webp",
-                description: "Base de madera con rosas rojas en ascenso, girasoles e hypericum rojo, con espacio para tu tarjeta. La forma en escalera lo hace ver el doble de grande, perfecto para cumpleaños y celebraciones.",
-                categories: ["rosas", "girasoles", "mixtos"]
+                id: 9, name: "Clásico de Siempre", price: 125000, image: "/assets/9.webp",
+                description: "Ramo vertical de rosas rojas con nube blanca, envuelto en papel blanco y rematado con moño rojo. El clásico que nunca falla: aniversarios, disculpas o un porque sí que siempre se recibe bien.",
+                categories: ["rosas"]
             },
             {
-                id: 21, name: "Especialmente Para Ti", price: 140000, image: "/assets/21.webp",
-                description: "Caja negra con rosas rojas y nube, globo dorado personalizado, bombones y tarjeta de dedicatoria. Todo el mensaje ya viene armado: tú solo eliges la hora de entrega.",
-                categories: ["rosas", "detalles", "premium"]
+                id: 11, name: "Sol Naciente", price: 125000, image: "/assets/11.webp",
+                description: "Ramo de rosas amarillas y naranjas en papel kraft, con nube blanca y moño amarillo. El amarillo se asocia con alegría y nuevos comienzos: ideal para felicitar un logro, un trabajo nuevo o una reconciliación.",
+                categories: ["rosas"]
             },
             {
-                id: 22, name: "Doble Sol", price: 140000, image: "/assets/22.webp",
-                description: "Ramo con tres filas de rosas rojas y dos girasoles grandes, con corazón de bombones Ferrero. Rojo y amarillo juntos: amor y alegría en el mismo regalo, ideal para el cumpleaños de tu pareja.",
-                categories: ["rosas", "girasoles", "mixtos", "detalles"]
+                id: 14, name: "Rosas y Chocolate", price: 125000, image: "/assets/14.webp",
+                description: "Ramo de rosas rojas con nube blanca, envuelto en papel blanco y acompañado de chocolatinas. Dos placeres en un mismo regalo, perfecto para cumpleaños, aniversarios de mes y sorpresas rápidas.",
+                categories: ["rosas", "detalles"]
             },
             {
-                id: 23, name: "Cumpleaños Inolvidable", price: 370000, image: "/assets/23.webp",
-                description: "Base negra con rosas rojas y blancas, oso de peluche y tres globos de cumpleaños. Es el paquete completo de sorpresa: flores, peluche y globos sin que tengas que armar nada.",
-                categories: ["rosas", "detalles", "premium"]
+                id: 15, name: "Lirios y Ternura", price: 125000, image: "/assets/15.webp",
+                description: "Lirios rosados abiertos con nube blanca en papel fucsia, junto a un peluche de monito. Los lirios perfuman todo el espacio y el peluche convierte el detalle en un recuerdo que se guarda.",
+                categories: ["detalles"]
             },
             {
-                id: 24, name: "Noche Dorada", price: 200000, image: "/assets/24.webp",
-                description: "Ramo de rosas rojas en papel dorado con nube blanca, bombones Ferrero y un vino de acompañamiento. Un regalo de celebración para aniversarios, ascensos y fechas que merecen brindis.",
-                categories: ["rosas", "detalles", "premium"]
+                id: 5, name: "Amanecer Frutal", price: 150000, image: "/assets/5.webp",
+                description: "Base de madera con lirios amarillos, rosas rosadas y amarillas, y frutas frescas entre follaje y nube blanca. Es alegre y abundante a la vista, pensado para cumpleaños y agradecimientos que quieres que se noten.",
+                categories: ["frutales", "mixtos"]
             },
             {
-                id: 25, name: "Corazón Rojo Intenso", price: 250000, image: "/assets/25.webp",
-                description: "Caja en forma de corazón repleta de rosas rojas con nube blanca y corazón de bombones. Es el regalo de declaración: se ve costoso, se ve pensado y no necesita explicación.",
-                categories: ["rosas", "cajas", "premium"]
-            },
-            {
-                id: 26, name: "Cofre Secreto", price: 140000, image: "/assets/26.webp",
-                description: "Caja negra con rosas rojas y nube, con un cajón inferior que esconde un corazón de bombones. La sorpresa se abre en dos tiempos, ideal para propuestas, aniversarios y para pedir perdón.",
-                categories: ["rosas", "cajas", "detalles"]
-            },
-            {
-                id: 27, name: "Jardín Pastel", price: 275000, image: "/assets/27.webp",
-                description: "Copa negra desbordada de rosas en tonos rosa, durazno y amarillo con solidago y nube blanca. Es un arreglo de gran volumen para regalos importantes: cumpleaños de mamá, de tu jefa o celebraciones familiares.",
-                categories: ["rosas", "premium"]
-            },
-            {
-                id: 28, name: "Elegancia Nocturna", price: 190000, image: "/assets/28.webp",
-                description: "Rosas rojas con abundante nube envueltas en papel negro con borde dorado, más bombones y tarjeta. La envoltura oscura hace que el rojo se vea aún más intenso: elegante y de alto impacto.",
-                categories: ["rosas", "detalles", "premium"]
-            },
-            {
-                id: 29, name: "Rojo con Orquídea", price: 120000, image: "/assets/29.webp",
+                id: 29, name: "Rojo con Orquídea", price: 150000, image: "/assets/29.webp",
                 description: "Caja negra con domo compacto de rosas rojas, una orquídea blanca y lazo dorado. Formato pequeño y muy fino, perfecto para un escritorio, una mesa de noche o una entrega discreta.",
                 categories: ["rosas", "cajas"]
             },
             {
-                id: 30, name: "Nube de Sol", price: 400000, image: "/assets/30.webp",
-                description: "Ramo XXL de rosas blancas rodeadas de girasoles, envuelto en papel blanco. Es una pieza de gran formato para momentos grandes: pedidas de mano, grados y aniversarios de años.",
-                categories: ["rosas", "girasoles", "mixtos", "premium"]
-            },
-            {
-                id: 31, name: "Primavera Dorada", price: 400000, image: "/assets/31.webp",
+                id: 31, name: "Primavera Dorada", price: 150000, image: "/assets/31.webp",
                 description: "Ramo abundante de lirios amarillos, claveles rojos y amarillos, rosas blancas y eucalipto en envoltura dorada. Mucha flor, mucho aroma y mucha presencia para celebraciones formales y homenajes.",
                 categories: ["mixtos", "premium"]
             },
             {
-                id: 32, name: "Contraste Real", price: 140000, image: "/assets/32.webp",
+                id: 36, name: "Libélulas de Amor", price: 150000, image: "/assets/36.webp",
+                description: "Domo de rosas rojas rodeado de nube blanca sobre papel negro, con libélulas doradas entre las flores. El negro hace resaltar el rojo y los detalles dorados lo vuelven un ramo distinto al de siempre.",
+                categories: ["rosas", "detalles"]
+            },
+            {
+                id: 8, name: "Rojo Abrazo", price: 162500, image: "/assets/8.webp",
+                description: "Caja negra con dos docenas de rosas rojas, nube blanca y follaje, acompañada de un oso de peluche. Las rosas dicen lo que sientes y el peluche se queda abrazando cuando tú no estás.",
+                categories: ["rosas", "detalles"]
+            },
+            {
+                id: 10, name: "Dulce Encuentro", price: 162500, image: "/assets/10.webp",
+                description: "Caja blanca con tres filas de rosas rojas, un girasol abierto y solidago amarillo, junto a un corazón de bombones Ferrero. Flores y chocolate en un mismo regalo, la combinación que casi nadie sabe rechazar.",
+                categories: ["rosas", "girasoles", "mixtos", "detalles"]
+            },
+            {
+                id: 18, name: "Escalera al Sol", price: 162500, image: "/assets/18.webp",
+                description: "Base de madera con rosas rojas en ascenso, girasoles e hypericum rojo, con espacio para tu tarjeta. La forma en escalera lo hace ver el doble de grande, perfecto para cumpleaños y celebraciones.",
+                categories: ["rosas", "girasoles", "mixtos"]
+            },
+            {
+                id: 4, name: "Cosecha Rosada", price: 175000, image: "/assets/4.webp",
+                description: "Canasta en tejido natural con manzanas, uvas, naranjas y peras, coronada por dos filas de rosas rosadas y nube blanca. Une el te quiero con el cuídate, el regalo perfecto para mamá, una amiga o alguien a quien quieres consentir.",
+                categories: ["frutales", "rosas"]
+            },
+            {
+                id: 7, name: "Sol y Cosecha", price: 175000, image: "/assets/7.webp",
+                description: "Canasta con girasoles y rosas amarillas sobre manzanas, uvas y naranjas frescas. Los girasoles transmiten energía y buen ánimo, ideales para felicitar, agradecer o alegrarle el día a alguien.",
+                categories: ["frutales", "girasoles"]
+            },
+            {
+                id: 21, name: "Especialmente Para Ti", price: 175000, image: "/assets/21.webp",
+                description: "Caja negra con rosas rojas y nube, globo dorado personalizado, bombones y tarjeta de dedicatoria. Todo el mensaje ya viene armado: tú solo eliges la hora de entrega.",
+                categories: ["rosas", "detalles", "premium"]
+            },
+            {
+                id: 22, name: "Doble Sol", price: 175000, image: "/assets/22.webp",
+                description: "Ramo con tres filas de rosas rojas y dos girasoles grandes, con corazón de bombones Ferrero. Rojo y amarillo juntos: amor y alegría en el mismo regalo, ideal para el cumpleaños de tu pareja.",
+                categories: ["rosas", "girasoles", "mixtos", "detalles"]
+            },
+            {
+                id: 26, name: "Cofre Secreto", price: 175000, image: "/assets/26.webp",
+                description: "Caja negra con rosas rojas y nube, con un cajón inferior que esconde un corazón de bombones. La sorpresa se abre en dos tiempos, ideal para propuestas, aniversarios y para pedir perdón.",
+                categories: ["rosas", "cajas", "detalles"]
+            },
+            {
+                id: 32, name: "Contraste Real", price: 175000, image: "/assets/32.webp",
                 description: "Caja roja con rosas rojas, lirios blancos y hortensia verde entre follaje tropical. La mezcla de texturas lo hace ver distinto a todo lo demás, perfecto para quien ya recibió rosas mil veces.",
                 categories: ["cajas", "mixtos"]
             },
             {
-                id: 33, name: "Corazón Dos Almas", price: 220000, image: "/assets/33.webp",
-                description: "Corazón en caja blanca con rosas rojas al centro y rosas blancas alrededor, con corazón de bombones Ferrero. Rojo y blanco juntos representan amor y compromiso: ideal para aniversarios y propuestas.",
-                categories: ["rosas", "cajas", "premium"]
+                id: 28, name: "Elegancia Nocturna", price: 187500, image: "/assets/28.webp",
+                description: "Rosas rojas con abundante nube envueltas en papel negro con borde dorado, más bombones y tarjeta. La envoltura oscura hace que el rojo se vea aún más intenso: elegante y de alto impacto.",
+                categories: ["rosas", "detalles", "premium"]
             },
             {
-                id: 34, name: "Corazón Aniversario", price: 200000, image: "/assets/34.webp",
+                id: 17, name: "Sol Eterno", price: 206250, image: "/assets/17.webp",
+                description: "Rosa amarilla preservada bajo cúpula de cristal con lazo amarillo, bolsa de regalo y bombones Ferrero. La rosa amarilla habla de amistad y alegría, y al ser preservada acompaña durante años.",
+                categories: ["detalles", "premium"]
+            },
+            {
+                id: 2, name: "Rosa Eterna", price: 212500, image: "/assets/2.webp",
+                description: "Rosa roja preservada dentro de una cúpula de cristal, con lazo rojo, bolsa de regalo y una caja dorada de bombones. Dura años y no días, por eso queda como recuerdo de la fecha que no quieres que se le olvide.",
+                categories: ["detalles"]
+            },
+            {
+                id: 6, name: "Torre de Cariño", price: 212500, image: "/assets/6.webp",
+                description: "Torre de rosas fucsia, lirio blanco y frutas de temporada rematada con un globo blanco y moños en rosado. Alta, colorida y difícil de ignorar: perfecta para una entrega sorpresa en la oficina o en la casa.",
+                categories: ["frutales", "rosas", "detalles"]
+            },
+            {
+                id: 34, name: "Corazón Aniversario", price: 237500, image: "/assets/34.webp",
                 description: "Corazón en caja negra con rosas rojas, un girasol al centro, nube blanca y topper de aniversario. Ya viene con el mensaje puesto, listo para entregar en la fecha exacta.",
                 categories: ["rosas", "girasoles", "cajas", "premium"]
             },
             {
-                id: 35, name: "Corazón Rosa Gourmet", price: 500000, image: "/assets/35.webp",
+                id: 24, name: "Noche Dorada", price: 250000, image: "/assets/24.webp",
+                description: "Ramo de rosas rojas en papel dorado con nube blanca, bombones Ferrero y un vino de acompañamiento. Un regalo de celebración para aniversarios, ascensos y fechas que merecen brindis.",
+                categories: ["rosas", "detalles", "premium"]
+            },
+            {
+                id: 33, name: "Corazón Dos Almas", price: 250000, image: "/assets/33.webp",
+                description: "Corazón en caja blanca con rosas rojas al centro y rosas blancas alrededor, con corazón de bombones Ferrero. Rojo y blanco juntos representan amor y compromiso: ideal para aniversarios y propuestas.",
+                categories: ["rosas", "cajas", "premium"]
+            },
+            {
+                id: 25, name: "Corazón Rojo Intenso", price: 312500, image: "/assets/25.webp",
+                description: "Caja en forma de corazón repleta de rosas rojas con nube blanca y corazón de bombones. Es el regalo de declaración: se ve costoso, se ve pensado y no necesita explicación.",
+                categories: ["rosas", "cajas", "premium"]
+            },
+            {
+                id: 1, name: "Cofre Encantado", price: 318750, image: "/assets/1.webp",
+                description: "Una rosa preservada bajo cúpula de cristal, dos ositos rojos y globos dorados sobre una base de madera con nube blanca. Es el detalle que no se marchita ni se olvida: perfecto para aniversarios y para decir que esto va en serio.",
+                categories: ["detalles", "premium"]
+            },
+            {
+                id: 27, name: "Jardín Pastel", price: 343750, image: "/assets/27.webp",
+                description: "Copa negra desbordada de rosas en tonos rosa, durazno y amarillo con solidago y nube blanca. Es un arreglo de gran volumen para regalos importantes: cumpleaños de mamá, de tu jefa o celebraciones familiares.",
+                categories: ["rosas", "premium"]
+            },
+            {
+                id: 3, name: "Vuelo Frutal", price: 406250, image: "/assets/3.webp",
+                description: "Canasta de frutas frescas -piña, uvas, fresas y cítricos- suspendida bajo un globo transparente en tonos rosados. Llega como una sorpresa que se ve enorme al abrir la puerta, ideal para cumpleaños, nacimientos y buenas noticias.",
+                categories: ["frutales", "detalles", "premium"]
+            },
+            {
+                id: 12, name: "Fuego y Girasol", price: 406250, image: "/assets/12.webp",
+                description: "Caja negra con girasoles, rosas rojas y solidago amarillo, con tarjeta y corazón de bombones incluido. Grande, contrastado y fotogénico, es el arreglo que la gente publica apenas lo recibe.",
+                categories: ["girasoles", "rosas", "mixtos", "detalles", "premium"]
+            },
+            {
+                id: 23, name: "Cumpleaños Inolvidable", price: 462500, image: "/assets/23.webp",
+                description: "Base negra con rosas rojas y blancas, oso de peluche y tres globos de cumpleaños. Es el paquete completo de sorpresa: flores, peluche y globos sin que tengas que armar nada.",
+                categories: ["rosas", "detalles", "premium"]
+            },
+            {
+                id: 30, name: "Nube de Sol", price: 500000, image: "/assets/30.webp",
+                description: "Ramo XXL de rosas blancas rodeadas de girasoles, envuelto en papel blanco. Es una pieza de gran formato para momentos grandes: pedidas de mano, grados y aniversarios de años.",
+                categories: ["rosas", "girasoles", "mixtos", "premium"]
+            },
+            {
+                id: 35, name: "Corazón Rosa Gourmet", price: 625000, image: "/assets/35.webp",
                 description: "Gran corazón blanco con degradado de rosas rosadas y fresas cubiertas de chocolate. Es la pieza más grande del catálogo, pensada para pedidas, cumpleaños redondos y sorpresas inolvidables.",
                 categories: ["rosas", "cajas", "premium"]
             }
         ];
+
+        // Columna 1: económicos · Columna 2: precio medio · Columna 3: premium
+        function ordenarPorColumnas(lista) {
+            const orden = [...lista].sort((a, b) => a.price - b.price);
+            const n = orden.length, base = Math.floor(n / 3), resto = n % 3;
+            const t1 = base + (resto > 0 ? 1 : 0), t2 = base + (resto > 1 ? 1 : 0);
+            const cols = [orden.slice(0, t1), orden.slice(t1, t1 + t2), orden.slice(t1 + t2)];
+            const out = [];
+            for (let i = 0; i < t1; i++) cols.forEach(c => { if (c[i]) out.push(c[i]); });
+            return out;
+        }
 
         function formatPrice(price) {
             return '$' + price.toLocaleString('es-CO');
@@ -972,6 +988,7 @@
             if (filter !== 'todos') {
                 filtered = products.filter(p => p.categories.includes(filter));
             }
+            filtered = ordenarPorColumnas(filtered);
             grid.innerHTML = filtered.map(product => `
                 <div class="product-card">
                     <div class="product-image-container">
@@ -1060,7 +1077,7 @@
                 <h2 id="promo-flyer-title">Envíos de Flores a Domicilio en Bucaramanga</h2>
                 <p class="promo-flyer-tagline">Floristería Barrios arma tu arreglo con rosas y girasoles frescos y lo entrega el mismo día en la dirección que nos indiques.</p>
                 <div class="promo-flyer-prices">
-                    <span class="promo-new-price">Arreglos desde $40.000</span>
+                    <span class="promo-new-price">Arreglos desde $50.000</span>
                 </div>
                 <p class="promo-savings">Rosas · Girasoles · Entrega el mismo día</p>
                 <p style="font-size:.72rem;color:#8a8178;margin:-10px 0 14px;font-style:italic">Precio del arreglo. Domicilio no incluido, se cotiza según la zona.</p>
